@@ -1,5 +1,5 @@
 // Fetch menu_items from database and return object
-const returnMenu = function() {
+const returnMenu = function () {
   function httpGet(theUrl) {
     let xmlHttpReq = new XMLHttpRequest();
     xmlHttpReq.open("GET", theUrl, false);
@@ -9,7 +9,7 @@ const returnMenu = function() {
   return JSON.parse(httpGet('/api/menu')).menuItems;
 }
 
-const addButtonListeners = function() {
+const addButtonListeners = function () {
   const addToCartBtns = document.querySelectorAll('.add-to_cart');
   addToCartBtns.forEach(button => {
     button.addEventListener('click', (e) => {
@@ -20,7 +20,7 @@ const addButtonListeners = function() {
 }
 
 // Fills the menu div html for the menu-items
-const populateMenu = function(menuItemsArray) {
+const populateMenu = function (menuItemsArray) {
   menuArea.innerHTML = `
   <div class="menu-navbar">
     <div class="title">
@@ -95,4 +95,5 @@ const populateMenu = function(menuItemsArray) {
     }
     // menuArea.append(singleMenu);
   };
+  if (true === true) console.log('true');
 };

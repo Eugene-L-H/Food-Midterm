@@ -1,5 +1,5 @@
 // Displays the user's past orders in the menu-area
-const populatePastOrders = function(pastOrdersObj) {
+const populatePastOrders = function (pastOrdersObj) {
   menuArea.innerHTML = '';
 
   // Generate HTML for customer's past orders to be displayed in menu area

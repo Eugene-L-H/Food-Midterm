@@ -1,4 +1,4 @@
-const gatherOrderInfo = function() {
+const gatherOrderInfo = function () {
   let orders = [];
 
   const orderedItems = document.querySelectorAll('.menu-item_name');
@@ -18,11 +18,11 @@ const gatherOrderInfo = function() {
     });
 
     orders.push(singleOrder)
-   }
-  return orders;   
+  }
+  return orders;
 };
 
-const customerSMSMessage = function() {
+const customerSMSMessage = function () {
   const orders = gatherOrderInfo();
   let message = `Order Recieved!\n------------------\n`;
   let totalPrice = 0;
@@ -36,7 +36,7 @@ const customerSMSMessage = function() {
   return message;
 };
 
-const restaurantSMSMessage = function() {
+const restaurantSMSMessage = function () {
   const orders = gatherOrderInfo();
   let message = `Incoming Order:\n------------------\n`;
 

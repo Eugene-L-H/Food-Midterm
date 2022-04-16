@@ -54,8 +54,11 @@ main {
 .menu:-webkit-scrollbar:-webkit-scrollbar {
   background: transparent;
 }
+
 .example {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
   background: transparent;
 }

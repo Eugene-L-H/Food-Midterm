@@ -1,5 +1,5 @@
 const express = require('express');
-const router  = express.Router();
+const router = express.Router();
 
 // Twilio
 require('dotenv').config();
@@ -17,21 +17,21 @@ module.exports = (db) => {
     const customerMessage = req.body['customer'];
     const restaurantMessage = req.body['restaurant'];
 
-  client.messages
-  .create({
-     body: customerMessage,
-     from: twilioNumber,
-     to: customerNumber
-   })
-  .then(message => console.log(message.sid));
+    client.messages
+      .create({
+        body: customerMessage,
+        from: twilioNumber,
+        to: customerNumber
+      })
+      .then(message => console.log(message.sid));
 
-  client.messages
-  .create({
-     body: restaurantMessage,
-     from: twilioNumber,
-     to: '+14036718498'
-   })
-  .then(message => console.log(message.sid));
+    client.messages
+      .create({
+        body: restaurantMessage,
+        from: twilioNumber,
+        to: '+14036718498'
+      })
+      .then(message => console.log(message.sid));
   });
 
   return router;

@@ -15,12 +15,12 @@
 }
 
 .tabs {
-display: flex;
-height: 3%;
-width: 100%;
-justify-content: center;
-align-items: center;
-gap: 1px;
+  display: flex;
+  height: 3%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
 }
 
 .tabs button {
@@ -28,22 +28,23 @@ gap: 1px;
   background-color: #FB6100;
   color: white;
   width: 15%;
-  font-family:fantasy;
+  font-family: fantasy;
 }
 
-.tabs button:hover{
+.tabs button:hover {
   background: #1a10ca;
-	letter-spacing: 1px;
-	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-	transition: all 0.4s ease 0s;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
 }
 
 .title h4 {
   text-transform: capitalize;
   font-size: 2.5em;
 }
+
 .title h4 span {
   display: flex;
   font-size: 1em;
@@ -62,7 +63,7 @@ gap: 1px;
   border: 1px solid rgb(11, 11, 11);
   overflow-y: scroll;
   cursor: pointer;
-  font-family:fantasy;
+  font-family: fantasy;
   scroll-behavior: smooth;
   border-radius: 1em;
 }
@@ -90,7 +91,7 @@ gap: 1px;
   width: 90%;
 }
 
-.main  {
+.main {
   margin-bottom: -100px;
 }
 
@@ -106,12 +107,14 @@ gap: 1px;
 .single-menu:hover img {
   border-radius: 0;
 }
+
 .single-menu img {
   max-width: 8em;
   border-radius: 50%;
   border: 1px solid rgb(11, 11, 11);
   transition: 0.5s;
 }
+
 .single-menu h4 {
   text-transform: capitalize;
   font-size: 22px;
@@ -119,6 +122,7 @@ gap: 1px;
   margin-bottom: 5px;
   padding-bottom: 5px;
 }
+
 .single-menu h4 span {
   float: right;
   color: #ff7720;
@@ -155,12 +159,12 @@ gap: 1px;
 }
 
 .button-container button:hover {
-	background: #1a10ca;
-	letter-spacing: 1px;
-	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-	transition: all 0.4s ease 0s;
+  background: #1a10ca;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
 }
 
 .menu-content {
